@@ -137,4 +137,30 @@ iframe {
   height: 100%;
 }
 
+.tabelas {
+  margin-top: 40px;
+  background: #CC59D2;
+  padding: 5px;
+ }
 
+ .tabelafixa {
+  order: 3;
+  margin-left: 900px;
+ }
+
+.tabelas ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tabelas li {
+  padding-left: 25px;
+  list-style-type: none;
+}
+
+.tabelas iframe {
+  margin-left: 40px;
+  margin-top: 20px;
+  max-width: 35%;
+  height: 75%;
+}
