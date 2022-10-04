@@ -193,9 +193,15 @@ iframe {
 .score {
   display: grid;
   grid-template-columns: 50% 50%;
+  margin-bottom: 40px;
 }
 
 .score2 {
+  display: none;
+  margin-bottom: 40px;
+}
+
+.score3 {
   display: none;
 }
 
@@ -204,6 +210,11 @@ iframe {
 }
 
 .ativo2 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.ativo3 {
   display: grid;
   grid-template-columns: 50% 50%;
 }

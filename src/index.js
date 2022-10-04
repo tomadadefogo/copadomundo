@@ -34,3 +34,19 @@ cronometro()
   selecionarTabela2.forEach((li)=> {
     li.addEventListener('click', callbackTabela2)
   })
+
+  const selecionarTabela3 = document.querySelectorAll('a[href^="brasileiro"]')
+  
+ function callbackTabela3(event) {
+  event.preventDefault()
+  selecionarTabela3.forEach((li) => {
+  })
+  event.target.classList.toggle('ativo3')
+  if (event.target.classList.toggle('ativo3') === false) {
+    document.querySelector('.score3').classList.toggle('ativo3')
+  } 
+ }
+
+  selecionarTabela3.forEach((li)=> {
+    li.addEventListener('click', callbackTabela3)
+  })
