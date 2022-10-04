@@ -7,8 +7,12 @@ cronometro()
   
  function callbackTabela(event) {
   event.preventDefault()
-  
-  event.currentTarget.classList.toggle('ativo')
+  selecionarTabela.forEach((li) => {
+  })
+  event.target.classList.toggle('ativo')
+  if (event.target.classList.toggle('ativo') === false) {
+    document.querySelector('.score').classList.toggle('.ativo')
+  } 
  }
 
   selecionarTabela.forEach((li)=> {
