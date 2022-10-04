@@ -223,6 +223,10 @@ iframe {
   width: 5;
 }
 
+
+
+/* ultimas noticias */
+
 .hot-news {
   background: #CC59D2;
   padding-left: 40px;
@@ -230,31 +234,25 @@ iframe {
   color: white;
 }
 
-/* ultimas noticias */
-
-.hot-news-img {
+.imagens-news {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 100px;
+  margin-left: 20px;
+  height: 200px;
   margin-top: 20px;
-  
+  }
+
+.imagens-news img {
+  max-width: 260px;
+  height: 200px;
+  padding: 20px;  
 }
 
-.hot-news-img img {
-  margin-left: -20px;
-  padding: 20px;
-  justify-content: space-around;
-  width: 250px;
-}
-
-.hot-news-img  h3 {
-  margin-top: -15px;
-  font-size: 0.65em;
-  font-weight: bold;
+.imagens-news h3 {
   color: gray;
-  text-align: justify;
-  max-width: 200px;
+  max-width: 260px;
+  padding: 20px;
+  margin-top: -30px;
+  font-size: 0.75em;
 }
 
 /* rodape */
