@@ -9,7 +9,7 @@ const selecionarTabela = document.querySelectorAll('a[href^="premier"]')
   event.target.classList.toggle('ativo')
   if (event.target.classList.toggle('ativo') === false) {
     document.querySelector('.score').classList.toggle('ativo')
-  } 
+  }
  }
 
   selecionarTabela.forEach((li)=> {

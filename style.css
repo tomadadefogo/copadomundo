@@ -417,13 +417,91 @@ footer > p {
     margin-left: 44px;
   }
   .tabelas {
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 425px;
     margin-top: 350px;
   }
-  .score {
+  .score, .score2, .score3 {
+    max-width: 425px;
+    flex-wrap: wrap;
+  }
+  
+  .score iframe, .score2 iframe, .score3 iframe {
+    max-width: 81%;
+  }
+  footer {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 320px)  {
+  .menu-bg {
+    display: block;
+    max-width: 320px;
+  }
+  .menu {
     display: block;
   }
-  .score iframe {
-    max-width: 350px;
+  .container-img img {
+    display: block;
+    max-width: 320px;
+    height: 300px;
+  }
+  .container-img::before {
+    display: block;
+    max-width: 320px;
+    height: 300px;
+  }
+  .coming-soon {
+    display: block;
+    margin-bottom: 0px;
+    height: 425px;
+  }
+  .container-h2 {
+    margin-top: 180px;
+    font-size: 1.75em;
+  }
+
+  .countdown h3 {
+    font-size: 0.90em;
+  }
+  .section-gols {
+    display: block;
+  }
+  .section-gols h1 {
+    margin-top: -450px;
+    margin-bottom: 20px;
+  }
+  .section-gols iframe {
+    display: block;
+    width: 310px;
+    height: 300px;
+    padding: 20px;
+  }
+  .video {
+    justify-content: center;
+    align-self: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .tabelas {
+    display: flex;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 320px;
+    margin-top: 500px;
+  }
+  .score, .score2, .score3 {
+    max-width: 320px;
+    flex-wrap: wrap;
+  }
+  
+  .score iframe, .score2 iframe, .score3 iframe {
+    max-width: 81%;
   }
   footer {
     margin-top: 50px;
